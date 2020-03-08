@@ -1,0 +1,13 @@
+{
+  "name": "graphql-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
